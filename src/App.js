@@ -14,7 +14,16 @@ function App() {
 
 
   async function handleAddRepository() {
-    // TODO
+    const response = await api.post('repositories', {
+      title: "Challenge",
+      url: "https://github.com/Rocketseat/bootcamp-gostack-desafios/tree/master/desafio-conceitos-nodejs",
+      techs: "['Node,js', 'React']",
+      likes: 0
+    });
+    const repository = response.data;
+
+    setRepositories([...repositories, repository])
+    
   }
 
   async function handleRemoveRepository(id) {
@@ -29,7 +38,7 @@ function App() {
         <button onClick={() => handleRemoveRepository(1)}>
             Remover
         </button>
-        
+
         </li>)}
       </ul>
 
