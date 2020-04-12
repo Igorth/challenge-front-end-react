@@ -1,7 +1,9 @@
 # Second code challenge Back-end - Bootcamp
 
 Second code challenge, putting in practice that we learn in the first class.
-- 
+- Babel / Webpack
+- useState
+- useEffect
 
 ## Instructions
 
