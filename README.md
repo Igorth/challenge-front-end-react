@@ -1,9 +1,9 @@
 # Second code challenge Back-end - Bootcamp
 
-Second code challenge, putting in practice that we learn in the first class.
-- Babel / Webpack
-- useState
-- useEffect
+Second code challenge, putting in practice that we learn in the first week.
+
+## 📟 What I learned
+React.JS | Babel | Webpack | useState | useEffect 
 
 ## Instructions
 
@@ -19,14 +19,14 @@ Once you've got Node installed:
 * `git clone git@github.com/Igorth/challenge-front-end-react`
 * `cd challenge-front-end-react`
 * `yarn` to install dependencies
-* `yarn dev` to start the project
+* `yarn start` to start the project
 * `yarn test` to start the tests
 * Check out the repo to see the git history: `https://github.com/Igorth/challenge-front-end-react`
 
 
-## Authors
+## Author
 
-* **Igor Dias** - *Initial work*
+* [**Igor Dias**](https://www.linkedin.com/in/igordiasth/)
 
 
 ## License

@@ -18,7 +18,6 @@ function App() {
       title: "Challenge",
       url: "https://github.com/Rocketseat/bootcamp-gostack-desafios/tree/master/desafio-conceitos-nodejs",
       techs: "['Node,js', 'React']",
-      likes: 0
     });
     const repository = response.data;
 
@@ -27,9 +26,11 @@ function App() {
   }
 
   async function handleRemoveRepository(id) {
-    await api.delete(`repositories/${id}`, {});
+    await api.delete(`repositories/${id}`);
 
-    setRepositories(repositories.filter(repository => repository.id !== id));
+    const newRepositories = repositories.filter()
+
+    setRepositories(newRepositories);
   }
 
   return (
